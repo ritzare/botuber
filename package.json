@@ -1,0 +1,12 @@
+{
+  "name": "uber",
+  "version": "1.0.0",
+  "description": "respostas dadas pelo uber",
+  "main": "bot.js",
+  "author": "peixe",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.5.0",
+    "winston": "^3.2.1"
+  }
+}
