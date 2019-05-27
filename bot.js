@@ -27,8 +27,8 @@ bot.on('message', msg=>{
 })
 
 
-var respostas = ['Brabo', 'Interessante', 'Complicado', 'Dificil', "Ô"];
-var thing = respostas[Math.floor(Math.random()*respostas.length) -1 ];
+var things = ['Brabo', 'Interessante', 'Complicado', 'Dificil', "Ô"];
+var thing = things[Math.floor(Math.random()*things.length)];
 bot.on('message', msg=>{
   if(msg.content ==="!uber"){
       msg.reply('' + thing);
