@@ -85,4 +85,10 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!rods"){
+      msg.channel.send("", {files: ["https://img.fireden.net/v/image/1506/78/1506786636491.png"]});
+  }
+})
+
 bot.login(process.env.BOT_TOKEN);
