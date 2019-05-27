@@ -8,7 +8,7 @@ bot.on('ready', () =>{
 })
 
 bot.on('message', msg=>{
-  if(msg.content === "!jotaro"){
+  if(msg.content === "!jotaro") ||(msg.content === "!JOTARO") {
       msg.reply("DIO!");
       msg.reply("Oh? You’re approaching me? Instead of running away, you’re coming right to me? Even though your grandfather, Joseph, told you the secret of The World, like an exam student scrambling to finish the problems on an exam until the last moments before the chime? I can’t beat the shit out of you without getting closer. Oh ho! Then come as close as you like.");
   }
@@ -32,6 +32,11 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!ram ranch"){
+      msg.reply("EIGHTEEN NAKED COWBOYS IN THE SHOWERS AT RAM RANCH BIG HARD THROBBING COCKS WANTING TO BE SUCKED EIGHTEEN NAKED COWBOYS WANTING TO BE FUCKED COWBOYS IN THE SHOWERS AT RAM RANCH ON THEIR KNEES WANTING TO SUCK COWBOY COCKS RAM RANCH REALLY ROCKS");
+  }
+})
 
 
 bot.on('message', msg=>{
