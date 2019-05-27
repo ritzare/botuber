@@ -80,6 +80,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!ohgod"){
+      msg.channel.send("", {files: ["https://i.imgur.com/X5dRSLh.gif"]});
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content ==="!muda"){
       msg.channel.send("", {files: ["https://img.fireden.net/co/image/1546/47/1546477295870.gif"]});
   }
