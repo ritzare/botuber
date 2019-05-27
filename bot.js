@@ -33,6 +33,13 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!go"){
+      msg.reply("Go ahead, Mr. Joestar!");
+  }
+})
+
+
+bot.on('message', msg=>{
   if(msg.content ==="!ram ranch"){
       msg.reply("EIGHTEEN NAKED COWBOYS IN THE SHOWERS AT RAM RANCH BIG HARD THROBBING COCKS WANTING TO BE SUCKED EIGHTEEN NAKED COWBOYS WANTING TO BE FUCKED COWBOYS IN THE SHOWERS AT RAM RANCH ON THEIR KNEES WANTING TO SUCK COWBOY COCKS RAM RANCH REALLY ROCKS");
   }
