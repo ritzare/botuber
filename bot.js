@@ -67,4 +67,10 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!peixe"){
+      msg.channel.send("", {files: ["https://i.imgur.com/zeBTVM2.jpg"]});
+  }
+})
+
 bot.login(process.env.BOT_TOKEN);
