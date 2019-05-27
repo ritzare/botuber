@@ -27,10 +27,11 @@ bot.on('message', msg=>{
 })
 
 
-
+var respostas = ['Brabo', 'Interessante', 'Complicado', 'Dificil', "Ô"];
+var thing = respostas[Math.floor(Math.random()*respostas.length)];
 bot.on('message', msg=>{
-  if(msg.content ==="!uber falou bosta"){
-      msg.reply("Interessante");
+  if(msg.content ==="!uber"){
+      msg.reply('' + thing);
   }
 
 })
