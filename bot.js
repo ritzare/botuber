@@ -28,7 +28,7 @@ bot.on('message', msg=>{
 
 
 var respostas = ['Brabo', 'Interessante', 'Complicado', 'Dificil', "Ô"];
-var thing = respostas[Math.floor(Math.random()*respostas.length)];
+var thing = respostas[Math.floor(Math.random()*respostas.length) -1 ];
 bot.on('message', msg=>{
   if(msg.content ==="!uber"){
       msg.reply('' + thing);
@@ -36,5 +36,10 @@ bot.on('message', msg=>{
 
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!caio"){
+      msg.channel.send("", {files: ["https://i.redd.it/hghybppwrfy21.jpg"]});
+  }
+})
 
 bot.login(process.env.BOT_TOKEN);
