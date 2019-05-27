@@ -63,7 +63,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
   if(msg.content ==="!kleber"){
-      msg.channel.send("", {files: ["https://pbs.twimg.com/media/Dm8csBLXcAASw8s.jpg"]});
+      msg.channel.send("", {files: ["https://i.imgur.com/Pmze5fn.jpg"]});
   }
 })
 
