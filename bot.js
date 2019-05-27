@@ -61,4 +61,10 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!kleber"){
+      msg.channel.send("", {files: ["https://pbs.twimg.com/media/Dm8csBLXcAASw8s.jpg"]});
+  }
+})
+
 bot.login(process.env.BOT_TOKEN);
