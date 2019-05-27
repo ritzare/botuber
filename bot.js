@@ -27,11 +27,12 @@ bot.on('message', msg=>{
 })
 
 
-var things = ['Brabo', 'Interessante', 'Complicado', 'Dificil', "Ô"];
-var thing = things[Math.floor(Math.random()*things.length)];
+
 bot.on('message', msg=>{
+  var things = ['Brabo', 'Interessante', 'Complicado', 'Dificil', "Ô"];
+  var thing = things[Math.floor(Math.random()*things.length)];
   if(msg.content ==="!uber"){
-      msg.reply('' + thing);
+      msg.channel.send('' + thing);
   }
 
 })
