@@ -73,4 +73,10 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!fap"){
+      msg.channel.send("", {files: ["https://i.imgur.com/nMgTezY.gif"]});
+  }
+})
+
 bot.login(process.env.BOT_TOKEN);
