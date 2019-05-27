@@ -79,4 +79,10 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!muda"){
+      msg.channel.send("", {files: ["https://img.fireden.net/co/image/1546/47/1546477295870.gif"]});
+  }
+})
+
 bot.login(process.env.BOT_TOKEN);
