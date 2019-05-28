@@ -62,6 +62,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!disgusting"){
+      msg.channel.send("", {files: ["https://i.kym-cdn.com/photos/images/original/001/008/025/bfb.png"]});
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content ==="!kleber"){
       msg.reply("", {files: ["https://i.imgur.com/Pmze5fn.jpg"]});
   }
