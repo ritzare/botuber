@@ -104,7 +104,7 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
-  if(msg.content ==="!peixe"){
+  if(msg.content ==="!gado"){
       msg.channel.send("!play rei do gado");
   }
 })
