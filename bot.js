@@ -104,6 +104,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!peixe"){
+      msg.channel.send("!play rei do gado");
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content ==="!retard"){
       msg.channel.send("", {files: ["https://images-cdn.9gag.com/photo/aV30bOn_460s.jpg"]});
   }
