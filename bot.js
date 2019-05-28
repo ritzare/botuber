@@ -103,11 +103,6 @@ bot.on('message', msg=>{
   }
 })
 
-bot.on('message', msg=>{
-  if(msg.content ==="!gado"){
-      msg.channel.send("!play rei do gado");
-  }
-})
 
 bot.on('message', msg=>{
   if(msg.content ==="!retard"){
