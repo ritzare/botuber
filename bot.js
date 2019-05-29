@@ -103,6 +103,11 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content ==="!sioux"){
+      msg.channel.send("", {files: ["https://i.kym-cdn.com/photos/images/original/001/446/293/e73.jpg"]});
+  }
+})
 
 bot.on('message', msg=>{
   if(msg.content ==="!retard"){
