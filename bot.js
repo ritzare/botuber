@@ -111,7 +111,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
   if(msg.content ==="!lieuber"){
-      msg.channel.send("", {files: ["https://i.imgur.com/S7bXpxd.png"]});
+      msg.channel.send("", {files: ["https://i.imgur.com/bwdFFTO.png"]});
   }
 })
 
