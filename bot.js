@@ -110,6 +110,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!lieuber"){
+      msg.channel.send("", {files: ["https://i.imgur.com/S7bXpxd.png"]});
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content ==="!retard"){
       msg.channel.send("", {files: ["https://images-cdn.9gag.com/photo/aV30bOn_460s.jpg"]});
   }
