@@ -47,17 +47,24 @@ bot.on('message', msg=>{
 
 
 bot.on('message', msg=>{
-  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó", "Tru Chori"];
+  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó"];
   var thing = things[Math.floor(Math.random()*things.length)];
   if(msg.content ==="!uber"){
       msg.channel.send('' + thing);
   }
 
 })
+//bot.on('message', msg=>{
+  //if(msg.content ==="!caio"){
+    //  msg.channel.send("", {files: ["https://i.redd.it/hghybppwrfy21.jpg"]});
+  //}
+//})
 
 bot.on('message', msg=>{
   if(msg.content ==="!caio"){
-      msg.channel.send("", {files: ["https://i.redd.it/hghybppwrfy21.jpg"]});
+    var things = ['https://i.redd.it/hghybppwrfy21.jpg', 'https://www.nossoamorexiste.com/blog/wp-content/uploads/2017/03/2oll1l9bwheff09pvm3j3sfrq.jpg', 'http://4.bp.blogspot.com/_vBjGr8dNoV0/S4srp-kr9VI/AAAAAAAAANA/Cl3KbpnicmA/s1600-h/brocha.jpg'];
+    var thing = things[Math.floor(Math.random()*things.length)];
+      msg.channel.send("", {files: ['' + thing]});
   }
 })
 
