@@ -105,6 +105,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!ora"){
+      msg.channel.send("", {files: ["https://i.imgur.com/MvDTZ54.gifv"]});
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content ==="!rods"){
       msg.channel.send("", {files: ["https://img.fireden.net/v/image/1506/78/1506786636491.png"]});
   }
