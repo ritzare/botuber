@@ -106,7 +106,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
   if(msg.content ==="!ora"){
-      msg.channel.send("", {files: ["https://i.imgur.com/MvDTZ54.gif"]});
+      msg.channel.send("", {files: ["https://i.imgur.com/1wb4XCj.gif"]});
   }
 })
 
