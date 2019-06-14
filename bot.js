@@ -123,6 +123,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!ritzar"){
+      msg.channel.send("", {files: ["https://i.imgur.com/5Avu8dO.png"]});
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content ==="!lieuber"){
       msg.channel.send("", {files: ["https://i.imgur.com/bwdFFTO.png"]});
   }
