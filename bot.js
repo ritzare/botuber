@@ -59,11 +59,6 @@ bot.on('message', msg=>{
   }
 
 })
-//bot.on('message', msg=>{
-  //if(msg.content ==="!caio"){
-    //  msg.channel.send("", {files: ["https://i.redd.it/hghybppwrfy21.jpg"]});
-  //}
-//})
 
 bot.on('message', msg=>{
   if(msg.content ==="!caio"){
