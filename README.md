@@ -1,2 +1,2 @@
 # botuber
-Projeto colaborativo para um bot interativo no aplicativo discord.
+collaborative tongue-in-cheek project for a interactive bot that uses the discord api.
