@@ -142,7 +142,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
   if(msg.content ==="!meperdoa"){
-      msg.channel.send("@Sioux", {files: ["https://i.imgur.com/5imTxhn.jpg"]});
+      msg.channel.send("", {files: ["https://i.imgur.com/5imTxhn.jpg"]});
   }
 })
 bot.on('message', msg=>{
