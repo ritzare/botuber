@@ -45,7 +45,7 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
-  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó", "Tru Chori"];
+  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó", "Tru Chori","ta bem até"];
   var thing = things[Math.floor(Math.random()*things.length)];
   if(msg.content ==="!uber"){
       msg.channel.send('' + thing);
