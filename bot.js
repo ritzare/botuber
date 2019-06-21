@@ -39,6 +39,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content ==="!F"){
+      msg.reply("F");
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content ==="!venice"){
       msg.channel.send("You know Paris, France? In English, it's pronounced 'Paris' but everyone else pronounces it without the 's' sound, like the French do. But with Venezia, everyone pronouces it the English way: 'Venice'. Like The Merchant of Venice or Death in Venice. WHY, THOUGH!? WHY ISN'T THE TITLE DEATH IN VENEZIA!? ARE YOU FUCKING KIDDING ME!? IT TAKES PLACE IN ITALY, SO USE THE ITALIAN WORD, DAMMIT! THAT SHIT PISSES ME OFF! BUNCH OF DUMBASSES!");
   }
