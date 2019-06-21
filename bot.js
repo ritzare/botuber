@@ -40,7 +40,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
   if(msg.content ==="!F"){
-      msg.reply("F");
+      msg.channel.send("F");
   }
 })
 
