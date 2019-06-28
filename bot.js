@@ -49,13 +49,23 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
-  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó", "Tru Chori","ta bem até"];
+  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó", "Tru Chori","Tá bem até"];
   var thing = things[Math.floor(Math.random()*things.length)];
   if(msg.content.toLowerCase() ==="!uber" || msg.content.toLowerCase() ==="-uber"){
       msg.channel.send('' + thing);
   }
 
 })
+
+bot.on('message', msg=>{
+  var things = ["Traps aren't gay", "F E M I N I N E  P E N I S"];
+  var thing = things[Math.floor(Math.random()*things.length)];
+  if(msg.content.toLowerCase() ==="!futa" || msg.content.toLowerCase() ==="-futa"){
+      msg.channel.send('' + thing);
+  }
+
+})
+
 
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!caio" || msg.content.toLowerCase() ==="-caio"){
