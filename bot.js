@@ -83,7 +83,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!kleber" || msg.content.toLowerCase() ==="-kleber"){
-    var things = ["https://i.imgur.com/Pmze5fn.jpg", "Já tá mutado"];
+    var things = ["https://i.imgur.com/Pmze5fn.jpg"];
     var thing = things[Math.floor(Math.random()*things.length)];
       msg.channel.send("", {files: ["" + thing]});
   }
