@@ -120,6 +120,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content.toLowerCase() ==="!wtf" || msg.content.toLowerCase() ==="-wtf"){
+      msg.channel.send("", {files: ["https://i.redd.it/dv7afptdh9131.jpg"]});
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!rods" || msg.content.toLowerCase() ==="-rods"){
       msg.channel.send("", {files: ["https://img.fireden.net/v/image/1506/78/1506786636491.png"]});
   }
