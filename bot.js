@@ -82,6 +82,13 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content.toLowerCase() ==="!culture" || msg.content.toLowerCase() ==="-culture"){
+      msg.channel.send("", {files: ["https://i.kym-cdn.com/photos/images/original/001/236/841/075.jpg"]});
+  }
+})
+
+
+bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!kleber" || msg.content.toLowerCase() ==="-kleber"){
     var things = ["https://i.imgur.com/Pmze5fn.jpg", "https://i.imgur.com/nYQmZJ2.png"];
     var thing = things[Math.floor(Math.random()*things.length)];
