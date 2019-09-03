@@ -82,6 +82,12 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
+  if(msg.content.toLowerCase() ==="!awesome" || msg.content.toLowerCase() ==="-awesome"){
+      msg.channel.send("", {files: ["https://i.kym-cdn.com/entries/icons/original/000/029/711/cover6.jpg"]});
+  }
+})
+
+bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!culture" || msg.content.toLowerCase() ==="-culture"){
       msg.channel.send("", {files: ["https://i.kym-cdn.com/photos/images/original/001/236/841/075.jpg"]});
   }
