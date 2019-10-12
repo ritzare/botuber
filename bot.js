@@ -7,6 +7,7 @@ bot.on('ready', () =>{
   console.log('dio');
 })
 
+//Exemple of function bot
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() === "!jotaro" || msg.content.toLowerCase() === "-jotaro"){
       msg.reply("DIO!");
