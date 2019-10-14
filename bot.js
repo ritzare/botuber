@@ -175,6 +175,15 @@ bot.on('message', msg=>{
   }
 })
 
+bot.on('message', msg=>{
+  if(msg.content.toLowerCase() ==="!lista" || msg.content.toLowerCase() ==="-lista"){
+    var things = ['https://imgur.com/b9RiNft', 'https://imgur.com/GiEJF4d', 'https://imgur.com/60fxxfI', 'https://imgur.com/tTEeAkF', 'https://imgur.com/scc79tA', 'https://imgur.com/UW2TvWM', 'https://imgur.com/Utm0qwt'];
+    var thing = things[Math.floor(Math.random()*things.length)];
+      msg.channel.send("", {files: ["" + thing]});
+  }
+})
+
+
 /////musicbot
 
 
