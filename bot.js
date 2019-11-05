@@ -53,7 +53,7 @@ bot.on('message', msg=>{
 })
 
 bot.on('message', msg=>{
-  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó", "Tru Chori","Tá bem até","👍🏿", "👌🏿"];
+  var things = ['Brabo', 'Interessante', 'Complicado', 'Difícil', "Ó", "Tru Chori","Tá bem até","👍🏿", "👌🏿", "nice"];
   var thing = things[Math.floor(Math.random()*things.length)];
   if(msg.content.toLowerCase() ==="!uber" || msg.content.toLowerCase() ==="-uber"){
       msg.channel.send('' + thing);
