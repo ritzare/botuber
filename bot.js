@@ -73,7 +73,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!caio" || msg.content.toLowerCase() ==="-caio"){
-    var things = ['https://i.redd.it/hghybppwrfy21.jpg', 'https://www.nossoamorexiste.com/blog/wp-content/uploads/2017/03/2oll1l9bwheff09pvm3j3sfrq.jpg', 'Ai como eu sofro'];
+    var things = ['https://i.redd.it/hghybppwrfy21.jpg', 'https://www.nossoamorexiste.com/blog/wp-content/uploads/2017/03/2oll1l9bwheff09pvm3j3sfrq.jpg'];
     var thing = things[Math.floor(Math.random()*things.length)];
       msg.channel.send("", {files: ["" + thing]});
   }
