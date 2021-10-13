@@ -6,7 +6,7 @@
   "author": "peixe",
   "dependencies": {
     "discord.io": "^2.5.3",
-    "discord.js": "^11.5.0",
+    "discord.js": "^12.5.1",
     "winston": "^3.2.1"
   }
 }

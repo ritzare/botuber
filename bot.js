@@ -61,15 +61,6 @@ bot.on('message', msg=>{
 
 })
 
-bot.on('message', msg=>{
-  var things = ["Traps aren't gay", "F E M I N I N E  P E N I S"];
-  var thing = things[Math.floor(Math.random()*things.length)];
-  if(msg.content.toLowerCase() ==="!futa" || msg.content.toLowerCase() ==="-futa"){
-      msg.channel.send('' + thing);
-  }
-
-})
-
 
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!caio" || msg.content.toLowerCase() ==="-caio"){
@@ -160,11 +151,6 @@ bot.on('message', msg=>{
   }
 })
 
-bot.on('message', msg=>{
-  if(msg.content.toLowerCase() ==="!lieuber" || msg.content.toLowerCase() ==="-lieuber"){
-      msg.channel.send("", {files: ["https://i.imgur.com/bwdFFTO.png"]});
-  }
-})
 
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!retard" || msg.content.toLowerCase() ==="-retard"){
@@ -177,18 +163,6 @@ bot.on('message', msg=>{
       msg.channel.send("", {files: ["https://i.imgur.com/zCVBcUUl.jpg"]});
   }
 })
-
-bot.on('message', msg=>{
-  if(msg.content.toLowerCase() ==="!lista" || msg.content.toLowerCase() ==="-lista"){
-    var things = ['https://imgur.com/b9RiNft.jpg', 'https://imgur.com/GiEJF4d.jpg', 'https://imgur.com/60fxxfI.jpg', 'https://imgur.com/tTEeAkF.jpg', 'https://imgur.com/scc79tA.jpg', 'https://imgur.com/UW2TvWM.jpg', 'https://imgur.com/Utm0qwt.jpg'];
-    var thing = things[Math.floor(Math.random()*things.length)];
-      msg.channel.send("", {files: ["" + thing]});
-  }
-})
-
-
-/////musicbot
-
 
 
 bot.login(process.env.BOT_TOKEN);
