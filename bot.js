@@ -148,11 +148,6 @@ bot.on('message', msg=>{
   }
 })
 
-bot.on('message', msg=>{
-  if(msg.content.toLowerCase() ==="!lieuber" || msg.content.toLowerCase() ==="-lieuber"){
-      msg.channel.send("", {files: ["https://i.imgur.com/bwdFFTO.png"]});
-  }
-})
 
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!retard" || msg.content.toLowerCase() ==="-retard"){
@@ -165,8 +160,6 @@ bot.on('message', msg=>{
       msg.channel.send("", {files: ["https://i.imgur.com/zCVBcUUl.jpg"]});
   }
 })
-
-
 
 
 bot.login(process.env.BOT_TOKEN);
