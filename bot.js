@@ -59,7 +59,6 @@ bot.on('message', msg=>{
 })
 
 
-
 bot.on('message', msg=>{
   if(msg.content.toLowerCase() ==="!caio" || msg.content.toLowerCase() ==="-caio"){
     var things = ['https://i.redd.it/hghybppwrfy21.jpg', 'https://www.nossoamorexiste.com/blog/wp-content/uploads/2017/03/2oll1l9bwheff09pvm3j3sfrq.jpg'];
@@ -167,13 +166,7 @@ bot.on('message', msg=>{
   }
 })
 
-bot.on('message', msg=>{
-  if(msg.content.toLowerCase() ==="!lista" || msg.content.toLowerCase() ==="-lista"){
-    var things = ['https://imgur.com/b9RiNft.jpg', 'https://imgur.com/GiEJF4d.jpg', 'https://imgur.com/60fxxfI.jpg', 'https://imgur.com/tTEeAkF.jpg', 'https://imgur.com/scc79tA.jpg', 'https://imgur.com/UW2TvWM.jpg', 'https://imgur.com/Utm0qwt.jpg'];
-    var thing = things[Math.floor(Math.random()*things.length)];
-      msg.channel.send("", {files: ["" + thing]});
-  }
-})
+
 
 
 bot.login(process.env.BOT_TOKEN);
