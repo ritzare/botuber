@@ -1,5 +1,6 @@
 //**Begin of code */
 var Discord = require('discord.js');
+const { prefix, token } = require("./config.json");
 var bot = new Discord.Client();
 
 
